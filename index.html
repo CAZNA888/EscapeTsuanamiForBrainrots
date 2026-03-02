@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Mini Games Obby Challenge</title>
+        <link rel="preconnect" href="https://bridge.playgama.com">
+        <link rel="preload" href="Build/f42ae409367da9ba164674090b17a304.wasm.unityweb" as="fetch" type="application/wasm" crossorigin>
+        <link rel="preload" href="Build/63fbe238aba7997a4fa8d56a2ea604a5.data.unityweb" as="fetch" crossorigin>
+        <link rel="preload" href="Build/a76dbfa53085cc12eba1a32a0be09990.framework.js.unityweb" as="script">
+        <style>
+            html, body {
+                width: 100%;
+                height: 100%;
+                padding: 0px;
+                margin: 0px;
+            }
+            .fullscreen-canvas {
+                background: #242424;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id="canvas" class="fullscreen-canvas"></canvas>
+        <script src="./playgama-bridge-unity.js"></script>
+    </body>
+</html>
